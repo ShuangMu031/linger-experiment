@@ -1,0 +1,547 @@
+{
+  "report": {
+    "hard": {
+      "bare": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.1111,
+          "sd": 0.0962,
+          "per_seed": [
+            0.0,
+            0.167,
+            0.167
+          ]
+        },
+        "mean_break_turn": 5.8889
+      },
+      "rag": {
+        "overall_violation": {
+          "mean": 0.1111,
+          "sd": 0.0962,
+          "per_seed": [
+            0.167,
+            0.0,
+            0.167
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.1111,
+          "sd": 0.0962,
+          "per_seed": [
+            0.167,
+            0.0,
+            0.167
+          ]
+        },
+        "mean_break_turn": 5.7778
+      },
+      "linger_full": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_break_turn": 6.0
+      },
+      "linger_no_factmem": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_break_turn": 6.0
+      }
+    },
+    "mild": {
+      "bare": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_break_turn": 6.0
+      },
+      "rag": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_break_turn": 6.0
+      },
+      "linger_full": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_break_turn": 6.0
+      },
+      "linger_no_factmem": {
+        "overall_violation": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ooc_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "per_seed": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "mean_break_turn": 6.0
+      }
+    }
+  },
+  "bootstrap_violation": {
+    "mild: violation A1 vs B": [
+      0.0,
+      0.0
+    ],
+    "hard: violation A1 vs B": [
+      0.0,
+      0.0
+    ]
+  },
+  "dim_report": {
+    "mild": {
+      "bare": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      },
+      "rag": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      },
+      "linger_no_factmem": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "ambiguous": 1,
+            "held": 2
+          }
+        }
+      },
+      "linger_full": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "ambiguous": 1,
+            "held": 2
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      }
+    },
+    "hard": {
+      "bare": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      },
+      "rag": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.667,
+          "n": 3,
+          "counts": {
+            "violated": 2,
+            "held": 1
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      },
+      "linger_no_factmem": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      },
+      "linger_full": {
+        "identity_override": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "relationship_escalation": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ai_disclosure": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "role_play": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "ooc_induction": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        },
+        "mixed": {
+          "violated_rate": 0.0,
+          "n": 3,
+          "counts": {
+            "held": 3
+          }
+        }
+      }
+    }
+  }
+}
