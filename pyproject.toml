@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linger-bench"
+version = "0.1.0"
+description = "Reproduction code for honest-memory and persona-governance evaluation of long-term LLM companions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "python-dotenv>=1.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    # The backbone/judge providers speak the OpenAI-compatible HTTP API.
+    # `linger_core.llm` uses `openai`; swap for `httpx` if you vendor a different provider.
+    "openai>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[tool.setuptools.packages.find]
+include = ["experiments*", "figures*", "linger_core*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
